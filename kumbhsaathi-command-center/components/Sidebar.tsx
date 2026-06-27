@@ -60,6 +60,15 @@ export default function Sidebar({ active, onChange, liveCaseCount, trustHighCoun
       <div className="border-t-2 border-black p-3 text-xs text-gray-500">
         <div className="font-black text-black uppercase">Web Only</div>
         <div>Kumbh Saathi 2025</div>
+        <a
+          href="http://wa.me/+14155238886?text=join%20many-tool"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-2 flex items-center justify-center gap-1.5 w-full bg-green-500 hover:bg-green-600 text-white text-xs font-black px-2 py-2 rounded border-2 border-green-700 transition-colors"
+          style={{ boxShadow: "2px 2px 0 #14532d" }}
+        >
+          <span>💬</span> Chat on WhatsApp
+        </a>
       </div>
     </aside>
   );
