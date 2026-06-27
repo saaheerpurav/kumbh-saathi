@@ -1,0 +1,17 @@
+{
+  "name": "kumbhsaathi-whatsapp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Kumbh Saathi WhatsApp bot and simulator",
+  "scripts": {
+    "cli": "node src/whatsapp/cli.js",
+    "dev": "node src/whatsapp/server.js",
+    "start": "node src/whatsapp/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.19.2",
+    "openai": "^6.45.0",
+    "pg": "^8.12.0"
+  }
+}
